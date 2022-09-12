@@ -62,12 +62,6 @@ to this project, with the lessons:
 - [EXPLORER - Rocketseat](https://www.rocketseat.com.br/explorer)
 - [Figma do Desafio - GitFav](https://www.figma.com/file/B5PCSL3rEAoYJro6QFKYtp/%5BDesafios-Explorer%5D-GitFav-(Copy)-(Copy))
 
-## Image from the final project:
- <img alt="Print GitFav" title=" Landing page" src="./images/gitfav.png" />
-
- <br />
-
-
 
 ## 🚀 Getting started
 
