@@ -1,11 +1,5 @@
 # Github Favorites
 
-<h1 align="center">
-    <img alt="Gif of the finished project Github Favorites" title="gif" src="./images/gitfav.gif" />
-</h1>
-
-<br>
-
 ### 💻 Github Favorites
 
 Building a GitFav page to consume APi from Github and manipulate data by saving, displaying in a table and deleting with HTML, Javascript and CSS, Object-oriented programming, events, classes, inheritance and polymorphism were applied.
