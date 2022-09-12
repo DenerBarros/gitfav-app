@@ -1,0 +1,186 @@
+/* Google Fonts Typography*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+
+/* CSS variables Default */
+:root {
+  --primary-white: #FFF;
+  --primary-blue: #065E7C;
+
+  font-size: 62.5%;
+  --fs-body: 2rem;
+  --ff-roboto: 'Roboto', sans-serif;
+}
+
+/* HTML5 display-role reset for browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =============== Body ====================== */
+body {
+  font-size: 1.6rem;
+  color: var(--primary-white);
+  background-color: #06181C;
+}
+
+body * {
+  font-family: var(--ff-roboto);
+}
+/* =============== global ====================== */
+.sr-only{
+  position: absolute;
+  width: 1x;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+
+}
+
+#app {
+
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* =============== Header ====================== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8rem 0;
+}
+
+/* =============== Input & Button Search ====================== */
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 46rem;
+  color: var(--primary-white);
+  height: 4.8rem;
+  font-size: 1.6rem;
+  background-color: #2F2F33;
+  border: none;
+  border-radius: 0.5rem ;
+  padding: 1.6rem;
+  margin-right: 0.8rem;
+}
+
+.search button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.8rem;
+  width: 17rem;
+  gap: 0.8rem;
+  color: var(--primary-white);
+  background-color: var(--primary-blue);
+  border: none;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: var(--primary-white);
+  color: var(--primary-blue);
+}
+
+.search button:hover svg path {
+  fill: var(--primary-blue);
+}
+
+/* =============== Table ====================== */
+table {
+  width: 100%;
+  font-size: 2rem;
+  color: var(--primary-white);
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: var(--primary-blue);
+  text-align: left;
+  padding: 1.5rem;
+}
+
+table th:first-child {
+  border-top-left-radius: 1rem;
+}
+
+table th:last-child {
+  border-top-right-radius: 1rem;
+}
+
+table td {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+table tr:nth-child(odd) {
+  background-color: #010025d2;
+}
+
+table tr:nth-child(even) {
+  background-color: #065e7c4d;  
+}
+
+td.user {
+  display: flex;
+  align-items: center;
+  gap: 2rem; 
+}
+
+td.user a {
+  text-decoration: none;
+  color: var(--primary-white); 
+}
+
+td.user a p {
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+td.user img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 20%;
+}
+
+td .remove {
+  color: #f75967;
+  border: none;
+  background: none;
+  font-weight: 700;
+  font-size: 2rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+td .remove:hover {
+  opacity: .5;
+}
+
+/* =============== Empty Message ====================== */
+.empty-message {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #4e5455;
+  gap: 6rem;
+  margin-top: 10rem;
+}
