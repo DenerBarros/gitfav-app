@@ -12,7 +12,14 @@ export class FavoritesView extends Favorites {
     }
 
     update() {
+      this.removeAllTr();
+    }
+
+    removeAllTr() {
         const tbody = this.root.querySelector('table tbody');
-        tbody.querySelectorAll('tr');
+        tbody.querySelectorAll('tr').forEeach(() => {
+            tr.remove()
+
+        })
     }
 }
